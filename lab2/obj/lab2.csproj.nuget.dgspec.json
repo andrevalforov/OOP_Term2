@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "/Users/pc/Projects/KNU/OOP/lab1/lab1/lab1.csproj": {}
+    "/Users/pc/Projects/KNU/OOP/lab1/lab2/lab2.csproj": {}
   },
   "projects": {
-    "/Users/pc/Projects/KNU/OOP/lab1/lab1/lab1.csproj": {
+    "/Users/pc/Projects/KNU/OOP/lab1/lab2/lab2.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/Users/pc/Projects/KNU/OOP/lab1/lab1/lab1.csproj",
-        "projectName": "lab1",
-        "projectPath": "/Users/pc/Projects/KNU/OOP/lab1/lab1/lab1.csproj",
+        "projectUniqueName": "/Users/pc/Projects/KNU/OOP/lab1/lab2/lab2.csproj",
+        "projectName": "lab2",
+        "projectPath": "/Users/pc/Projects/KNU/OOP/lab1/lab2/lab2.csproj",
         "packagesPath": "/Users/pc/.nuget/packages/",
-        "outputPath": "/Users/pc/Projects/KNU/OOP/lab1/lab1/obj/",
+        "outputPath": "/Users/pc/Projects/KNU/OOP/lab1/lab2/obj/",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "/usr/local/share/dotnet/sdk/NuGetFallbackFolder"

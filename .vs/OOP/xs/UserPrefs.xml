@@ -1,25 +1,30 @@
-﻿<Properties GitUserInfo="UsingMD" StartupConfiguration="{682471C4-19F5-4739-BBB9-874163E7B027}|Default">
+﻿<Properties GitUserInfo="UsingMD" StartupConfiguration="{53F9629F-E377-4C3E-943A-CBF8592EC5BB}|Default">
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
     <BreakpointStore />
   </MonoDevelop.Ide.DebuggingService.Breakpoints>
-  <MultiItemStartupConfigurations />
-  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
-  <MonoDevelop.Ide.ItemProperties.lab1 PreferredExecutionTarget="MonoDevelop.Default" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="lab1/Program.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="lab2/Program.cs">
     <Files>
-      <File FileName="lab1/TVector2D.cs" Line="37" Column="1" />
-      <File FileName="lab1/TVector3D.cs" Line="8" Column="6" />
-      <File FileName="lab1/Program.cs" Line="10" Column="55" />
+      <File FileName="lab1/TVector2D.cs" />
+      <File FileName="lab1/TVector3D.cs" />
+      <File FileName="lab1/Program.cs" />
+      <File FileName="lab2/Program.cs" Line="235" Column="25" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
         <State name="__root__">
-          <Node name="OOP" expanded="True" selected="True">
+          <Node name="OOP" expanded="True">
             <Node name="lab1" expanded="True" />
+            <Node name="lab2" expanded="True">
+              <Node name="Program.cs" selected="True" />
+            </Node>
           </Node>
         </State>
       </Pad>
     </Pads>
   </MonoDevelop.Ide.Workbench>
+  <MultiItemStartupConfigurations />
+  <MonoDevelop.Ide.ItemProperties.lab1 PreferredExecutionTarget="MonoDevelop.Default" />
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.ItemProperties.lab2 PreferredExecutionTarget="MonoDevelop.Default" />
 </Properties>

@@ -52,6 +52,23 @@
       return res;
     }
 
+    public static string[] Compare(TVector3D vector1, TVector3D vector2)
+    {
+      string[] res = new string[2];
+
+      if (vector1.X / vector2.GetX() == vector1.Y / vector2.GetY() && vector1.X / vector2.GetX() == vector1.Z / vector2.GetZ())
+        res[0] = "Colinear";
+      else
+        res[0] = "Not colinear";
+
+      if (vector1.X * vector2.GetX() + vector1.Y * vector2.GetY() + vector1.Z * vector2.GetZ() == 0)
+        res[1] = "Perpendicular";
+      else
+        res[1] = "Not perpendicular";
+
+      return res;
+    }
+
     public static TVector3D operator +(TVector3D vector1, TVector3D vector2) => new TVector3D(vector1.X + vector2.X, vector1.Y + vector2.Y, vector1.Z + vector2.Z);
 
     public static TVector3D operator -(TVector3D vector1, TVector3D vector2) => new TVector3D(vector1.X - vector2.X, vector1.Y - vector2.Y, vector1.Z - vector2.Z);

@@ -41,7 +41,7 @@
 
     public virtual TVector2D GetNormedVector() => new TVector2D(Math.Round(this.X / GetLength(), 2), Math.Round(this.Y / GetLength(), 2));
 
-    public virtual string[] Compare(TVector2D vector)
+    public string[] Compare(TVector2D vector)
     {
       string[] res = new string[2];
 
@@ -51,6 +51,23 @@
         res[0] = "Not colinear";
 
       if (this.X * vector.GetX() + this.Y * vector.GetY() == 0)
+        res[1] = "Perpendicular";
+      else
+        res[1] = "Not perpendicular";
+
+      return res;
+    }
+
+    public static string[] Compare(TVector2D vector1, TVector2D vector2)
+    {
+      string[] res = new string[2];
+
+      if (vector1.X / vector2.GetX() == vector1.Y / vector2.GetY())
+        res[0] = "Colinear";
+      else
+        res[0] = "Not colinear";
+
+      if (vector1.X * vector2.GetX() + vector1.Y * vector2.GetY() == 0)
         res[1] = "Perpendicular";
       else
         res[1] = "Not perpendicular";

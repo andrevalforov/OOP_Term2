@@ -1,6 +1,4 @@
-﻿using System.Numerics;
-using System.Runtime.Intrinsics;
-
+﻿
 namespace lab1;
 class Program
 {
