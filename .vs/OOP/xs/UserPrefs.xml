@@ -1,4 +1,4 @@
-﻿<Properties GitUserInfo="UsingMD" StartupConfiguration="{53F9629F-E377-4C3E-943A-CBF8592EC5BB}|Default">
+﻿<Properties GitUserInfo="UsingMD" StartupConfiguration="{D1D32A83-397E-47CD-B3BD-086ABA9CBA77}|Default">
   <MonoDevelop.Ide.Workbench ActiveDocument="lab2/Program.cs">
     <Files>
       <File FileName="lab2/Program.cs" Line="11" Column="43" />
@@ -18,9 +18,10 @@
   </MonoDevelop.Ide.Workbench>
   <MultiItemStartupConfigurations />
   <MonoDevelop.Ide.ItemProperties.lab2 PreferredExecutionTarget="MonoDevelop.Default" />
+  <MonoDevelop.Ide.ItemProperties.lab4 FirstBuild="True" />
   <MonoDevelop.Ide.ItemProperties.lab1 PreferredExecutionTarget="MonoDevelop.Default" />
   <MonoDevelop.Ide.DebuggingService.Breakpoints />
   <MonoDevelop.Ide.DebuggingService.PinnedWatches />
-  <MonoDevelop.Ide.ItemProperties.lab3 FirstBuild="True" />
+  <MonoDevelop.Ide.ItemProperties.lab3 PreferredExecutionTarget="MonoDevelop.Default" />
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
 </Properties>

@@ -18,8 +18,8 @@ class Program
 
       Console.WriteLine("[1] - Add side quadrangle");
       Console.WriteLine("[2] - Add point quadrangle");
-      Console.WriteLine("[3] - Operations with side quadrangles");
-      Console.WriteLine("[4] - Operations with point quadrangles");
+      Console.WriteLine("[3] - Operations with side quadrangles" + (sideQuadrangles.Any() ? string.Empty : " NOT ENOUGH SIDE QUADRANGLES"));
+      Console.WriteLine("[4] - Operations with point quadrangles" + (pointQuadrangles.Any() ? string.Empty : " NOT ENOUGH POINT QUADRANGLES"));
 
       if (!int.TryParse(Console.ReadLine(), out int input))
         continue;
