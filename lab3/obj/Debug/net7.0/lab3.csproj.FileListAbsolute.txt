@@ -1,0 +1,15 @@
+/Users/pc/Projects/KNU/OOP/lab1/lab3/bin/Debug/net7.0/lab3
+/Users/pc/Projects/KNU/OOP/lab1/lab3/bin/Debug/net7.0/lab3.deps.json
+/Users/pc/Projects/KNU/OOP/lab1/lab3/bin/Debug/net7.0/lab3.runtimeconfig.json
+/Users/pc/Projects/KNU/OOP/lab1/lab3/bin/Debug/net7.0/lab3.dll
+/Users/pc/Projects/KNU/OOP/lab1/lab3/bin/Debug/net7.0/lab3.pdb
+/Users/pc/Projects/KNU/OOP/lab1/lab3/obj/Debug/net7.0/lab3.csproj.AssemblyReference.cache
+/Users/pc/Projects/KNU/OOP/lab1/lab3/obj/Debug/net7.0/lab3.GeneratedMSBuildEditorConfig.editorconfig
+/Users/pc/Projects/KNU/OOP/lab1/lab3/obj/Debug/net7.0/lab3.AssemblyInfoInputs.cache
+/Users/pc/Projects/KNU/OOP/lab1/lab3/obj/Debug/net7.0/lab3.AssemblyInfo.cs
+/Users/pc/Projects/KNU/OOP/lab1/lab3/obj/Debug/net7.0/lab3.csproj.CoreCompileInputs.cache
+/Users/pc/Projects/KNU/OOP/lab1/lab3/obj/Debug/net7.0/lab3.dll
+/Users/pc/Projects/KNU/OOP/lab1/lab3/obj/Debug/net7.0/refint/lab3.dll
+/Users/pc/Projects/KNU/OOP/lab1/lab3/obj/Debug/net7.0/lab3.pdb
+/Users/pc/Projects/KNU/OOP/lab1/lab3/obj/Debug/net7.0/lab3.genruntimeconfig.cache
+/Users/pc/Projects/KNU/OOP/lab1/lab3/obj/Debug/net7.0/ref/lab3.dll

@@ -21,7 +21,7 @@ class Program
       Console.WriteLine($"[5] - Add new 3D vector");
       Console.WriteLine($"[6] - Make copy from existing 3D vector" + (vector3Ds.Any() ? string.Empty : "\t--NOT ENOUGH VECTORS"));
       Console.WriteLine($"[7] - Remove 3D vector" + (vector3Ds.Any() ? string.Empty : "\t--NOT ENOUGH VECTORS"));
-      Console.WriteLine($"[8] - Operations with 3D vectors" + (vector2Ds.Any() ? string.Empty : "\t--NOT ENOUGH VECTORS"));
+      Console.WriteLine($"[8] - Operations with 3D vectors" + (vector3Ds.Any() ? string.Empty : "\t--NOT ENOUGH VECTORS"));
       Console.WriteLine("[0] - Exit");
 
       if (!int.TryParse(Console.ReadLine(), out int input))
@@ -272,7 +272,7 @@ class Program
 
   private static void ShowVectorList(IEnumerable<TVector2D> vectors)
   {
-    if (vectors.Any() && vectors.FirstOrDefault().GetType().Equals(typeof(TVector3D)))
+    if (vectors.Any() && vectors.First().GetType().Equals(typeof(TVector3D)))
       Console.WriteLine($"3D vectors ({vectors.Count()}):");
     else if (vectors.Any())
       Console.WriteLine($"2D vectors ({vectors.Count()}):");
